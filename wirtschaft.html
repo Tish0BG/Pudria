@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wirtschaft & Währung – Pudria</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Outfit', 'sans-serif'] }, colors: { pudria: { primary: '#0d9488', dark: '#0f766e', light: '#5eead4' } } } } }
+  </script>
+  <style>
+    .glass {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .glass-dark {
+      background: rgba(13, 148, 136, 0.15);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(94, 234, 212, 0.2);
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased bg-slate-950 text-slate-100 min-h-screen">
+  <header class="fixed top-0 left-0 right-0 z-50 glass border-b border-white/10">
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+      <a href="index.html" class="flex items-center gap-2 text-xl font-semibold text-teal-400">
+        <img src="photos/wappe.png" alt="Pudria Wappen" class="w-8 h-8 rounded-lg object-contain">
+        Pudria
+      </a>
+      <ul class="flex flex-wrap items-center gap-1 sm:gap-2 text-sm">
+        <li><a href="index.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Start</a></li>
+        <li><a href="verfassung.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Verfassung & Werte</a>
+        </li>
+        <li><a href="geografie.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Geografie</a></li>
+        <li><a href="wirtschaft.html" class="px-3 py-2 rounded-lg text-teal-400 font-medium bg-white/5">Wirtschaft</a>
+        </li>
+        <li><a href="problemlosungen.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Problemlösungen</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pt-28 pb-16 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">Wirtschaft & Währung</h1>
+      <p class="text-slate-400 text-lg mb-12">
+        Pudria setzt auf ein ressourcenbasiertes Wirtschaftssystem und eine eigene stabile Währung:
+        den Rapan.
+      </p>
+
+      <!-- Pudri-Coin -->
+      <section class="glass-dark rounded-2xl p-8 sm:p-12 mb-12">
+        <div class="flex flex-wrap items-center gap-6 mb-8">
+          <div
+            class="w-20 h-20 rounded-2xl bg-teal-500/30 flex items-center justify-center text-2xl font-bold text-teal-400">
+            RPN</div>
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-white">Der Rapan</h2>
+            <p class="text-teal-400/90">Offizielle Währung des Königreichs Pudria</p>
+          </div>
+        </div>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          Der Rapan ist die offizielle Währung des Königreichs Pudria – und gilt als die beste und stabilste Währung der
+          Welt. Sein Ursprung reicht zurück bis in die Zeit, als die Piraten nach Jahrhunderten endloser Abenteuer
+          endlich Bikini Bottom und Nemo eroberten. Als die neue Herrschaft Ordnung und Freude in die Unterwasserwelt
+          brachte, wurde ein altes Geheimnis entdeckt: die Magie eines uralten Meereskristalls.
+
+          Aus diesem Kristall entstand nicht nur die Fähigkeit, unter Wasser zu atmen, sondern auch eine neue Form von
+          Reichtum. Die ersten Rapans wurden in einer Zeremonie geprägt, bei der Korallen, Meeressalz und kristalline
+          Energie miteinander verbunden wurden. Seitdem ist der Rapan mehr als Geld: Er ist ein Symbol für die Einheit
+          zwischen Piraten und Meeresbewohnern – und für eine Wirtschaft, die sowohl die Oberfläche als auch die Tiefen
+          des Ozeans beherrscht.
+        </p>
+        <ul class="space-y-2 text-slate-400">
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">•</span> Extrem stabil: Der Wert des
+            Rapans wird durch Energie, Rohstoffe und die Kristallreserve Pudrias abgesichert.</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">•</span> Fälschungssicher: Jede Münze
+            und jede Banknote trägt eine einzigartige kristalline Signatur aus dem Meereskristall.</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">•</span> Respektiert auf der ganzen
+            Welt: Händler, Seefahrer und selbst andere Königreiche akzeptieren den Rapan als stärkste Währung überhaupt.
+          </li>
+        </ul>
+        <div class="mt-8 p-6 rounded-xl bg-slate-900/50 border border-white/5">
+          <img src="photos/1.png" alt="Rapan – offizielles Währungsdesign" class="w-full h-auto rounded-lg shadow-lg">
+        </div>
+
+        <div class="mt-8 p-6 rounded-xl bg-slate-900/50 border border-white/5">
+          <img src="photos/2.png" alt="Rapan – offizielles Währungsdesign" class="w-full h-auto rounded-lg shadow-lg">
+        </div>
+      </section>
+
+      <!-- Ressourcenbasiertes System -->
+      <section class="glass rounded-2xl p-8 sm:p-10 mb-10">
+        <h2 class="text-2xl font-bold text-teal-400 mb-4">Ressourcenbasiertes Wirtschaftssystem</h2>
+        <p class="text-slate-400 leading-relaxed mb-4">
+          Pudria verfügt über ein hochentwickeltes ressourcenbasiertes Wirtschaftssystem, das auf Stabilität,
+          Nachhaltigkeit und intelligenter Verteilung beruht. Im Mittelpunkt steht nicht der Profit einzelner, sondern
+          das Prinzip: Ressourcen sind ein gemeinsames Gut des Königreichs und werden zum Wohl der gesamten Bevölkerung
+          eingesetzt.
+
+          Da Pudria das Territorium des gesamten Pazifiks sowie unzählige Inselgruppen und Unterwasserregionen umfasst,
+          besitzt das Reich Zugang zu außergewöhnlich vielfältigen Ressourcen. Dazu zählen erneuerbare Energiequellen
+          wie Sonne, Wind und Wellenkraft, mineralreiche Tiefseegebiete, maritime Landwirtschaft (Algen- und
+          Korallenfarmen), Süßwassergewinnung durch Entsalzung sowie technologische Rohstoffe aus den Forschungszonen
+          der Unterwasserwelt.
+
+          Alle Ressourcen werden durch ein zentrales System erfasst, überwacht und strategisch verwaltet. Produktion und
+          Versorgung werden so geplant, dass Überfluss und Mangel vermieden werden. Dadurch entsteht eine Wirtschaft,
+          die nicht von Krisen, Spekulation oder künstlicher Knappheit abhängig ist, sondern von Wissen, Organisation
+          und moderner Technik.
+
+          Dieses System macht Pudria zu einem der stabilsten Reiche der Welt: Es garantiert Versorgungssicherheit,
+          stärkt die Unabhängigkeit des Staates und schützt gleichzeitig das Meer – die wichtigste Lebensgrundlage des
+          Königreichs.
+        </p>
+      </section>
+
+      <!-- Handel & Zukunft -->
+      <section class="grid sm:grid-cols-2 gap-6">
+        <article class="glass rounded-2xl p-8">
+          <h3 class="text-xl font-semibold text-teal-400 mb-3">Handel & Kooperation</h3>
+          <p class="text-slate-400 leading-relaxed">
+            Pudria ist trotz seiner gewaltigen Macht kein isoliertes Königreich. Im Gegenteil: Der Staat gilt als einer
+            der wichtigsten Handels- und Kooperationspartner der Welt, weil er als einzige Nation gleichzeitig die
+            Oberfläche des Pazifiks und die Tiefsee beherrscht. Dadurch verfügt Pudria über Ressourcen, Technologien und
+            Handelsrouten, die für viele Länder unverzichtbar sind.
+
+            Der internationale Handel Pudrias basiert auf klaren Regeln: fairer Austausch, Schutz der Meeresumwelt und
+            langfristige Partnerschaften. Besonders gefragt sind pudrische Innovationen wie Energiegewinnung aus Wellen,
+            hochentwickelte Entsalzungsanlagen, Unterwasser-Transporttechnologie und biotechnologische Forschung aus
+            Korallen- und Algenlaboren.
+
+            Kooperation ist dabei nicht nur wirtschaftlich, sondern auch kulturell: Pudria pflegt Allianzen mit
+            Inselstaaten, Hafenstädten und Forschungsorganisationen weltweit. So wird das Königreich zu einer Brücke
+            zwischen Land und Meer – und zu einem Zentrum für Frieden, Handel und maritime Entwicklung.
+          </p>
+        </article>
+        <article class="glass rounded-2xl p-8">
+          <h3 class="text-xl font-semibold text-teal-400 mb-3">Zukunft der Wirtschaft</h3>
+          <p class="text-slate-400 leading-relaxed">
+            Die Zukunft der pudrischen Wirtschaft ist geprägt von einem Ziel: Wachstum ohne Zerstörung. Während viele
+            Länder zwischen Industrie und Natur wählen müssen, hat Pudria bewiesen, dass beides möglich ist – durch
+            Technik, Planung und die besondere Verbindung zur Unterwasserwelt.
+
+            In den kommenden Jahrzehnten setzt Pudria auf drei große Entwicklungsrichtungen: die vollständige Umstellung
+            auf erneuerbare Energie, den Ausbau intelligenter Unterwasserstädte und die Erschließung neuer
+            Forschungsfelder in den Tiefen des Ozeans. Gleichzeitig wird die Währung Rapan weiter gestärkt und durch ein
+            digitales System ergänzt, das schnelle, sichere und transparente Transaktionen ermöglicht.
+
+            Pudria sieht die Wirtschaft nicht als Kampf, sondern als Mission: Die Ressourcen des Pazifiks sollen nicht
+            ausgebeutet, sondern mit Weisheit genutzt werden. So entsteht eine Zukunft, in der das Königreich nicht nur
+            reich bleibt, sondern auch als Vorbild gilt – für eine Welt, die das Meer respektiert und trotzdem
+            Fortschritt erreicht.
+          </p>
+        </article>
+      </section>
+    </div>
+  </main>
+
+
+  <script src="bubbles.js"></script>
+</body>
+
+</html>

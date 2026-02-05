@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pudria – Wo Visionen Wurzeln schlagen</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Outfit', 'sans-serif'] },
+          colors: {
+            pudria: { primary: '#0d9488', dark: '#0f766e', light: '#5eead4', accent: '#134e4a' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glass {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .glass-dark {
+      background: rgba(13, 148, 136, 0.15);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(94, 234, 212, 0.2);
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased bg-slate-950 text-slate-100 min-h-screen">
+  <!-- Navigation -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass border-b border-white/10">
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+      <a href="index.html" class="flex items-center gap-2 text-xl font-semibold text-teal-400">
+        <img src="photos/wappe.png" alt="Pudria Wappen" class="w-8 h-8 rounded-lg object-contain">
+        Pudria
+      </a>
+      <ul class="flex flex-wrap items-center gap-1 sm:gap-2 text-sm">
+        <li><a href="index.html" class="px-3 py-2 rounded-lg text-teal-400 font-medium bg-white/5">Start</a></li>
+        <li><a href="verfassung.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Verfassung & Werte</a>
+        </li>
+        <li><a href="geografie.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Geografie</a></li>
+        <li><a href="wirtschaft.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Wirtschaft</a></li>
+        <li><a href="problemlosungen.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Problemlösungen</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-teal-950/40 to-slate-900"></div>
+    <div class="absolute inset-0 opacity-30"
+      style="background-image: radial-gradient(circle at 50% 50%, rgba(20,184,166,0.15) 0%, transparent 50%);"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <div class="glass-dark rounded-2xl p-8 sm:p-12 mb-8 inline-block">
+        <p class="text-teal-400/90 text-sm uppercase tracking-widest mb-4">Willkommen im Staat</p>
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
+          Pudria<br>
+          <span class="text-teal-400">Wo die Unterwasserwelt beginnt</span>
+        </h1>
+        <p class="text-slate-300 text-lg sm:text-xl max-w-2xl mx-auto">
+          Der Staat der unterseeischen menschlichen Nation
+        </p>
+      </div>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="verfassung.html"
+          class="px-6 py-3 rounded-xl bg-teal-500 text-white font-medium hover:bg-teal-400 transition shadow-lg shadow-teal-500/25">Unsere
+          Werte</a>
+        <a href="geografie.html"
+          class="px-6 py-3 rounded-xl glass text-slate-200 font-medium hover:bg-white/10 transition">Lebensraum</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="relative py-24 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center text-white mb-12">Unsere Geschichte</h2>
+      <div class="glass rounded-2xl p-8 sm:p-12 max-w-4xl mx-auto">
+        <p class="text-slate-300 text-lg leading-relaxed">
+          Nach Jahrhunderten endloser Abenteuer auf See haben wir Piraten endlich unseren Traum verwirklicht. Wir
+          eroberten Bikini Bottom und Nemo, und die Meeresbewohner erkannten bald, dass unsere neue Herrschaft Ordnung…
+          und viel Vergnügen brachte.
+          Mit der Magie eines alten Meereskristalls entdeckten wir ein Geheimnis, das es uns ermöglicht, unter Wasser zu
+          atmen – wir können nun Piratenfeste in Korallenschlössern feiern und U-Boote wie ein Kinderspiel steuern.
+          Mit der Gründung des Königreichs Pudria begann eine neue Ära: Piratenherrschaft, Unterwasserfeste und
+          Allianzen mit Meeresbewohnern. Und die Legende besagt, dass jeder, der es wagt, sich uns entgegenzustellen,
+          sich im Labyrinth aus Korallen und magischen Strudeln verliert… bis er die Regeln des Piratenlebens gelernt
+          hat.
+          Pudria – das Königreich, in dem Piraten unter Wasser atmen und das Meer immer unser Zuhause ist
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Daten & Fakten -->
+  <section class="py-12 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="glass-dark rounded-2xl p-8 sm:p-12 border border-teal-500/20">
+        <h2 class="text-3xl sm:text-4xl font-bold text-center text-white mb-10">Daten & Fakten</h2>
+        <div class="grid grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8 text-center">
+
+          <div class="p-4 rounded-xl hover:bg-white/5 transition duration-300">
+            <div
+              class="w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center mx-auto mb-4 text-teal-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 class="text-slate-400 text-sm font-medium uppercase tracking-wider mb-1">Gründung</h3>
+            <p class="text-xl sm:text-2xl font-bold text-white">67</p>
+          </div>
+
+          <div class="p-4 rounded-xl hover:bg-white/5 transition duration-300">
+            <div
+              class="w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center mx-auto mb-4 text-teal-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+            </div>
+            <h3 class="text-slate-400 text-sm font-medium uppercase tracking-wider mb-1">Bevölkerung</h3>
+            <p class="text-xl sm:text-2xl font-bold text-white">256 000</p>
+          </div>
+
+          <div class="p-4 rounded-xl hover:bg-white/5 transition duration-300">
+            <div
+              class="w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center mx-auto mb-4 text-teal-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0-2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 class="text-slate-400 text-sm font-medium uppercase tracking-wider mb-1">Währung</h3>
+            <p class="text-xl sm:text-2xl font-bold text-white">Rapan</p>
+          </div>
+
+          <div class="p-4 rounded-xl hover:bg-white/5 transition duration-300">
+            <div
+              class="w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center mx-auto mb-4 text-teal-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+              </svg>
+            </div>
+            <h3 class="text-slate-400 text-sm font-medium uppercase tracking-wider mb-1">Hauptstadt</h3>
+            <p class="text-xl sm:text-2xl font-bold text-white">Nemo & Bikini Bottom</p>
+
+          </div>
+
+          <div class="p-4 rounded-xl hover:bg-white/5 transition duration-300">
+            <div
+              class="w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center mx-auto mb-4 text-teal-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+              </svg>
+            </div>
+            <h3 class="text-slate-400 text-sm font-medium uppercase tracking-wider mb-1">Sprache</h3>
+            <p class="text-xl sm:text-2xl font-bold text-white">Vodein</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flagge & Wappen -->
+  <section class="py-16 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="glass rounded-2xl p-8 sm:p-10 overflow-hidden">
+        <div class="grid gap-8 md:grid-cols-2 items-center">
+          <div class="text-center">
+            <div
+              class="aspect-[3/2] max-w-md mx-auto rounded-xl bg-slate-900/80 flex items-center justify-center border border-teal-500/40 overflow-hidden p-4">
+              <img src="photos/flagge.jpg" alt="Die Flagge von Pudria" class="w-full h-full object-cover rounded-lg">
+            </div>
+            <p class="mt-4 text-slate-400 text-sm">Die offizielle Flagge des Königreichs Pudria</p>
+          </div>
+          <div class="text-center">
+            <div
+              class="aspect-square max-w-md mx-auto rounded-xl bg-slate-900/80 flex items-center justify-center border border-teal-500/40 overflow-hidden">
+              <img src="photos/wappe.png" alt="Wappen der Republik Pudria" class="w-full h-full object-contain">
+            </div>
+            <p class="mt-4 text-slate-400 text-sm">Das Wappen des Königreichs Pudria</p>
+          </div>
+        </div>
+
+        <!-- Nationalhymne -->
+        <div class="mt-10 pt-8 border-t border-white/10">
+          <div class="glass-dark rounded-xl p-1 max-w-lg mx-auto border border-teal-500/20">
+            <div class="bg-slate-950/40 rounded-lg p-5 flex items-center gap-4">
+              <a href="https://www.mureka.ai/song-detail/Qcwc2c2oHvPW4UVDg4WTDD?is_from_share=1" target="_blank"
+                class="w-12 h-12 rounded-full bg-teal-500 text-white flex items-center justify-center hover:bg-teal-400 transition shadow-lg shadow-teal-500/20 shrink-0 group">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 transition-transform group-hover:scale-110"
+                  viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+              <div class="flex-1 min-w-0">
+                <div class="flex justify-between items-baseline mb-1">
+                  <h3 class="text-teal-300 font-medium truncate">Nationalhymne</h3>
+                  <span class="text-xs text-slate-500 font-mono">2:45</span>
+                </div>
+                <p class="text-white font-serif italic truncate">"Hymne des Meeres"</p>
+                <div class="h-1 bg-white/10 rounded-full mt-3 overflow-hidden">
+                  <div class="h-full w-1/3 bg-teal-500 rounded-full"></div>
+                </div>
+              </div>
+            </div>
+            <p class="text-center text-xs text-slate-500 mt-2 mb-1 uppercase tracking-widest">Das ist die Hymne</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <script src="bubbles.js"></script>
+</body>
+
+</html>

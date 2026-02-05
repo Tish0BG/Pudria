@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geografie & Lebensraum – Pudria</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Outfit', 'sans-serif'] }, colors: { pudria: { primary: '#0d9488', dark: '#0f766e', light: '#5eead4' } } } } }
+  </script>
+  <style>
+    .glass {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .glass-dark {
+      background: rgba(13, 148, 136, 0.15);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(94, 234, 212, 0.2);
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased bg-slate-950 text-slate-100 min-h-screen">
+  <header class="fixed top-0 left-0 right-0 z-50 glass border-b border-white/10">
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+      <a href="index.html" class="flex items-center gap-2 text-xl font-semibold text-teal-400">
+        <img src="photos/wappe.png" alt="Pudria Wappen" class="w-8 h-8 rounded-lg object-contain">
+        Pudria
+      </a>
+      <ul class="flex flex-wrap items-center gap-1 sm:gap-2 text-sm">
+        <li><a href="index.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Start</a></li>
+        <li><a href="verfassung.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Verfassung & Werte</a>
+        </li>
+        <li><a href="geografie.html" class="px-3 py-2 rounded-lg text-teal-400 font-medium bg-white/5">Geografie</a>
+        </li>
+        <li><a href="wirtschaft.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Wirtschaft</a></li>
+        <li><a href="problemlosungen.html" class="px-3 py-2 rounded-lg hover:bg-white/5 transition">Problemlösungen</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pt-28 pb-16 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">Geografie & Lebensraum</h1>
+
+      <div class="glass rounded-2xl overflow-hidden mb-12">
+        <div class="aspect-video bg-slate-800">
+          <img src="photos/Geografie.png" alt="Luftaufnahme der schwimmenden Stadt Pudria"
+            class="w-full h-full object-cover">
+        </div>
+      </div>
+
+      <section class="space-y-10">
+        <article class="glass rounded-2xl p-8 sm:p-10">
+          <h2 class="text-2xl font-bold text-teal-400 mb-4">Geografie</h2>
+          <p class="text-slate-400 leading-relaxed mb-4">
+            Pudria ist ein einzigartiger Staat von gewaltigem Ausmaß: Mit einer Gesamtfläche von 167.000.000 km² umfasst
+            sein Territorium den gesamten Pazifischen Ozean sowie alle Inselgruppen und kleinen Inseln, die sich über
+            diese riesige Wasserwelt verteilen. Damit ist Pudria nicht nur ein Land, sondern ein ganzer Ozeanraum – eine
+            Nation, die sich über die Oberfläche und die Tiefen des Meeres erstreckt.
+
+            Die Geografie Pudrias ist zweigeteilt:
+            Im oberirdischen Bereich bilden schwimmende Städte, Inselketten und strategisch verbundene Plattformen ein
+            Netz aus Lebensräumen und Handelswegen. Das Herz dieses überirdischen Reiches liegt auf Hawaii, das als
+            zentraler Knotenpunkt, kulturelles Symbol und Hauptstadt der Oberwelt gilt. Von dort aus werden die
+            politischen und wirtschaftlichen Strukturen der oberirdischen Regionen koordiniert.
+
+            Der unterseeische Teil Pudrias beginnt dort, wo die Oberfläche endet: in einer weiten Welt aus
+            Korallenfeldern, Meeresgräben, thermischen Zonen und leuchtenden Tiefseeregionen. Hier existiert eine
+            zweite, ebenso bedeutende Hauptstadt: Bikini Bottom, das als Zentrum der Unterwasserwelt und als Hauptstadt
+            der Tiefen gilt. Unter gläsernen Kuppeln und in weit verzweigten Tunnelstädten verbindet Bikini Bottom
+            Forschung, Verwaltung und Kultur in einer Umgebung, die von Strömungen, Licht und Meeresleben geprägt ist.
+          </p>
+        </article>
+
+        <article class="glass rounded-2xl p-8 sm:p-10">
+          <h2 class="text-2xl font-bold text-teal-400 mb-4">Klima und Umwelt</h2>
+          <p class="text-slate-400 leading-relaxed">
+            In Pudria herrscht ein einzigartiges Klima, das die warme Feuchtigkeit der Tropen mit dem mystischen
+            Rhythmus der Unterwasserwelt verbindet. Über der Oberfläche streichelt die Sonne die Plattformen mit
+            sanftem, goldenem Licht, während tropische Winde den Duft von Salzwasser, Meerblumen und grünen Gärten
+            herantragen. Die Temperaturen fallen selten unter 24 °C, und die Regenfälle sind kurz, aber erfrischend –
+            perfekte Bedingungen für üppige Vegetation und schwimmende Gärten.
+            Unter Wasser verwandelt sich das Klima in ein Reich der Ruhe und Strömungen. Das Wasser ist warm, klar und
+            mineralreich, eine Umgebung, in der Korallengärten und Unterwassertunnel gedeihen. Sonnenstrahlen dringen
+            durch die Wasseroberfläche und tanzen über die Plattformen, während die Strömungen kühle Frische und Leben
+            in jede Ecke der Unterwasserzivilisation bringen.
+            So vereint Pudria das Gefühl eines tropischen Paradieses mit der Magie der Unterwasserwelt – ein Ort, an dem
+            Meer und Land in Harmonie leben und das Klima sowohl inspirierend als auch belebend ist.
+          </p>
+        </article>
+      </section>
+    </div>
+  </main>
+
+
+  <script src="bubbles.js"></script>
+</body>
+
+</html>
